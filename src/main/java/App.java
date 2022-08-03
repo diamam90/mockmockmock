@@ -44,7 +44,11 @@ public class App {
       */
         StubMapping sogaz = WireMock.stubFor(WireMock.post("/sogaz")
                 .withHeader("Content-Type", WireMock.containing("xml"))
-                .withRequestBody(WireMock.matchingXPath("//getContractsDetailsByNumber/ContractNumberList/count[ID]=1"))
+                .withRequestBody(WireMock.matchingXPath("//getContractsDetailsByNumber/ContractNumberList/"))
+                .willReturn(WireMock.ok().withBodyFile("getContractsDetailsByNumber.xml")));
+        StubMapping test2 = WireMock.stubFor(WireMock.post("/test2")
+                .withHeader("Content-Type", WireMock.containing("xml"))
+                .withRequestBody(WireMock.matchingXPath("//getContractsDetailsByNumber/ContractNumberList[count(ID)=2]"))
                 .willReturn(WireMock.ok().withBodyFile("getContractsDetailsByNumber.xml")));
 
     }
