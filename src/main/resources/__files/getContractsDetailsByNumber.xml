@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2007 sp1 (http://www.altova.com) by () -->
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ ">
+    <soap:Body>
+        <m:getContractsDetailsResponse xmlns:m="http://www.perconalcabinet.sogaz.ru">
+            <m:return xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                <ResultGetContract xmlns="http://www.integrator.sogaz.ru">
+                    <Contract ID_UnitInsurer="9c44e888-8c39-11db-91b0-0017085d7c0a"
+                              Product="164 v.1.0_Правила комплексного ипотечного страхования_с 29.07.2019"
+                              Number="1819 KIS 01000026" Date="2019-10-17T00:00:00">
+                        <ID_Contract>ba122318-1bfe-4af2-bc4a-f4de7f16e03e</ID_Contract>
+                        <CurrencyCode>810</CurrencyCode>
+                        <ID_Insurer>9c850747-3c0f-11db-a758-000802ce8208</ID_Insurer>
+                        <SectionContractItemsList SectionName="">
+                            <ItemList TypeValue="Строка" Name_Item="Статус" ID_Item="Статус">
+                                <RowNumber>0</RowNumber>
+                                <Value>Оформлен</Value>
+                            </ItemList>
+                            <ItemList TypeValue="Строка" Name_Item="ОтветсвенныйРуководительНаименование"
+                                      ID_Item="ОтветсвенныйРуководительНаименование">
+                                <RowNumber>0</RowNumber>
+                                <Value>Иванников Дмитрий Игоревич</Value>
+                            </ItemList>
+                            <ItemList TypeValue="Строка" Name_Item="СпособЗагрузки" ID_Item="СпособЗагрузки">
+                                <RowNumber>0</RowNumber>
+                                <Value>8c2bb4b2-e522-11e9-b83c-005056b442b3</Value>
+                            </ItemList>
+                        </SectionContractItemsList>
+                        <SectionContractItemsList SectionName="СвойстваДоговора">
+                            <ItemList TypeValue="Строка" Name_Item="11-ая группа"
+                                      ID_Item="dc554954-e16f-11e6-8173-5cb90192efd5">
+                                <RowNumber>0</RowNumber>
+                                <Value>0</Value>
+                            </ItemList>
+                            <ItemList TypeValue="Строка" Name_Item="Дата заключения кредитного договора"
+                                      ID_Item="a782c556-1009-11e8-8216-5cb90192efd5">
+                                <RowNumber>0</RowNumber>
+                                <Value>17.10.2019 0:00:00</Value>
+                            </ItemList>
+                            <ItemList TypeValue="Строка" Name_Item="Должность куратора банка"
+                                      ID_Item="59c4c9cd-508f-11e9-8285-5cb90192efd5">
+                                <RowNumber>0</RowNumber>
+                                <Value>Кредитный инспектор</Value>
+                            </ItemList>
+                            <ItemList TypeValue="Строка" Name_Item="Код точки продаж банка"
+                                      ID_Item="3882b6ba-508f-11e9-8285-5cb90192efd5">
+                                <RowNumber>0</RowNumber>
+                                <Value>ТП ВТБ Раменское</Value>
+                            </ItemList>
+                            <ItemList TypeValue="Строка" Name_Item="код учета ВТБС"
+                                      ID_Item="c3e83168-508e-11e9-8285-5cb90192efd5">
+                                <RowNumber>0</RowNumber>
+                                <Value>06180006870227</Value>
+                            </ItemList>
+                            <ItemList TypeValue="Строка" Name_Item="Кредитный_договор_(договор_займа)"
+                                      ID_Item="0139f00b-6a81-11e9-828c-5cb90192efd5">
+                                <RowNumber>0</RowNumber>
+                                <Value>623/1129-0000954</Value>
+                            </ItemList>
+                            <ItemList TypeValue="Ссылка" Name_Item="Периодичность оплаты ВТБС"
+                                      ID_Item="f0d0ef6a-508e-11e9-8285-5cb90192efd5">
+                                <RowNumber>0</RowNumber>
+                                <ValueRef>
+                                    <ID>3b80a58b-553a-11e9-8285-5cb90192efd5</ID>
+                                    <Name>Ежегодно</Name>
+                                </ValueRef>
+                            </ItemList>
+                            <ItemList TypeValue="Ссылка" Name_Item="Программа страхования ВТБС"
+                                      ID_Item="16eacea8-508f-11e9-8285-5cb90192efd5">
+                                <RowNumber>0</RowNumber>
+                                <ValueRef>
+                                    <ID>25b59359-c329-11e9-82a8-5cb90192efd5</ID>
+                                    <Name>Ипотека ВТБ - Основная программа - с 01.09.2019</Name>
+                                </ValueRef>
+                            </ItemList>
+                            <ItemList TypeValue="Строка" Name_Item="Размер кредита/займа или текущая зад"
+                                      ID_Item="8d29baab-1009-11e8-8216-5cb90192efd5">
+                                <RowNumber>0</RowNumber>
+                                <Value>3960000</Value>
+                            </ItemList>
+                            <ItemList TypeValue="Строка" Name_Item="Таб.номер куратора банка"
+                                      ID_Item="703ded7a-508f-11e9-8285-5cb90192efd5">
+                                <RowNumber>0</RowNumber>
+                                <Value>20002645</Value>
+                            </ItemList>
+                            <ItemList TypeValue="Строка" Name_Item="Текущая процентная ставка по кредиту"
+                                      ID_Item="6189e7ab-1009-11e8-8216-5cb90192efd5">
+                                <RowNumber>0</RowNumber>
+                                <Value>9.1</Value>
+                            </ItemList>
+                            <ItemList TypeValue="Ссылка" Name_Item="Тип договора"
+                                      ID_Item="e601bb78-f556-11e4-9470-9cb6549ab004">
+                                <RowNumber>0</RowNumber>
+                                <ValueRef>
+                                    <ID>fa88878c-f556-11e4-9470-9cb6549ab004</ID>
+                                    <Name>Договор с графиком</Name>
+                                </ValueRef>
+                            </ItemList>
+                            <ItemList TypeValue="Ссылка" Name_Item="Точка продаж"
+                                      ID_Item="9eafced0-1aa0-4031-90c0-38bc2990f22c">
+                                <RowNumber>0</RowNumber>
+                                <ValueRef>
+                                    <ID>31428ae0-c8d6-11e9-82a8-5cb90192efd5</ID>
+                                    <Name>ТП ВТБ Раменское</Name>
+                                </ValueRef>
+                            </ItemList>
+                            <ItemList TypeValue="Строка" Name_Item="Участвует в e-mail рассылке"
+                                      ID_Item="2b567853-d515-11e7-81ef-5cb90192efd5">
+                                <RowNumber>0</RowNumber>
+                                <Value>0</Value>
+                            </ItemList>
+                            <ItemList TypeValue="Строка" Name_Item="Участвует в SMS-рассылке"
+                                      ID_Item="01c0c9fc-b639-11dd-b7bf-001f290776b6">
+                                <RowNumber>0</RowNumber>
+                                <Value>0</Value>
+                            </ItemList>
+                            <ItemList TypeValue="Строка" Name_Item="ФИО куратора банка"
+                                      ID_Item="4eaaca27-508f-11e9-8285-5cb90192efd5">
+                                <RowNumber>0</RowNumber>
+                                <Value>Пехтерева Ирина Сергеевна</Value>
+                            </ItemList>
+                        </SectionContractItemsList>
+                        <ContragentList>
+                            <Contragent>
+                                <FullName>Маркин Владимир Владимирович</FullName>
+                                <Type>Физ</Type>
+                                <GUID>88ec5940-31aa-469e-90a8-215b3b322621</GUID>
+                            </Contragent>
+                            <RolesList>
+                                <ID_Role>Страхователь</ID_Role>
+                                <Name_Role>Страхователь</Name_Role>
+                            </RolesList>
+                        </ContragentList>
+                        <BeginDate>2019-10-17T00:00:00</BeginDate>
+                        <EndDate>2033-12-16</EndDate>
+                        <ID_ProlongedDog>00000000-0000-0000-0000-000000000000</ID_ProlongedDog>
+                    </Contract>
+                    <Rezult>true</Rezult>
+                </ResultGetContract>
+            </m:return>
+        </m:getContractsDetailsResponse>
+    </soap:Body>
+</soap:Envelope>
